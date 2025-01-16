@@ -1,11 +1,27 @@
 .fish {
-    margin-left: 30px;
     
 }
 .fish_image {
     width: 200px;
+    
+    
 }
-.article__details {
-    width: 1000px;
-    display: flex;
+.tip__details { 
+    display:flex;
+    flex-direction: column;
+
+}
+
+.aquarium {
+    text-align: center;
+}
+
+
+.locations {
+    margin-left: 30px;
+}
+
+.main {
+   
+    
 }

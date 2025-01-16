@@ -8,6 +8,9 @@ export const fishList = () => {
             <article class="fish">
              <h2 class="fish__name">${fish.name}</h2>
                 <p class="fish__species">${fish.species}</p>
+                <p class="fish__diet"> Diet:${fish.diet}</p>
+                <p class="fish__diet"> Length:${fish.length}</p>
+                <p class="fish__diet"> Location:${fish.location}</p>
                 <img src="${fish.image}" alt="${fish.species}" class="fish_image">
                 <div class="fish__details">
                    

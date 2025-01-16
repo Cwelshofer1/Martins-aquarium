@@ -5,8 +5,8 @@ export const locationList = () => {
     
     for (const location of database.locations) {
          locationHTML += `
+         <br>
             <article class="locations">
-            <h2> Locations </h2>
              <section> ${location.name}</section>
                 <section> ${location.country}</section>
                 <section> ${location.description}</section
