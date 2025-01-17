@@ -90,22 +90,22 @@ export const database = {
         {
             name: "Great Barrier Reef",
             country: "Australia",
-            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+            description: "The Great Barrier Reef is the world's largest coral reef system."
          },
          {
             name:"Apo Reef",
             country: "Philippines",
-            description:"Apo Reef is the biggest coral reef in the Philippines "
+            description:"Apo Reef is the biggest coral reef in the Philippines."
          },
          {
             name:"Ningaloo Reef",
             country: "Australia",
-            description:"The most dominant marine habitat is the Ningaloo reef, which sustains both tropical and temperate marine fauna and flora, including marine reptiles and mammals."
+            description:"The most dominant marine habitat is the Ningaloo reef."
          },
          {
             name:"Belize Barrier Reef",
             country: "Belize",
-            description:"The largest barrier reef in the northern hemisphere"
+            description:"The largest barrier reef in the northern hemisphere."
          },
          {
             name:"Palancar Reef",

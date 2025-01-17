@@ -5,6 +5,7 @@ import { renderTipsToDOM } from './tipList.js'
 import { locationList } from './locationList.js'
 import { renderLocationsToDOM } from './locationList.js'
 
+
 // Generate the fish list
 const fishHTML = fishList() 
 renderFishToDOM(fishHTML)

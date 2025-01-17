@@ -1,7 +1,7 @@
 import { database } from './aquariumData.js';
 
 export const fishList = () => {
-    let fishHTML = '';
+    let fishHTML = ``
     
     for (const fish of database.fish) {
          fishHTML += `
@@ -18,7 +18,9 @@ export const fishList = () => {
             </article>
         `;
     }
- 
+    
+    
+
     return fishHTML
     
     // Generate an HTML representation of each fish
@@ -29,6 +31,30 @@ export const renderFishToDOM = (fishHTML) => {
  
     if (fishesList) {
         fishesList.innerHTML = fishHTML;
+    } else {
+        console.error('Could not find element with id "movie-list"');
+    }
+ };
+
+
+ export const fishTitleList = () => {
+    let fishTitleHTML = '';
+    
+         fishTitleHTML += `
+            <h2>Fish</h2>
+        `;
+    
+ 
+    return fishTitleHTML
+    
+    // Generate an HTML representation of each fish
+};
+
+export const renderFishTitleToDOM = (fishTitleHTML) => {
+    const fishesTitleList = document.getElementById('fishTitle');
+ 
+    if (fishesTitleList) {
+        fishesTitleList.innerHTML = fishTitleHTML;
     } else {
         console.error('Could not find element with id "movie-list"');
     }
