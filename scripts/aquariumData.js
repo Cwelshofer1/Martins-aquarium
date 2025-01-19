@@ -65,7 +65,87 @@ export const database = {
             location: "ponds, rivers, lakes",
             diet: "Omnivore",
             image: "https://cafishvet.com/wp-content/uploads/2020/10/gold-fish-1.jpg"  
-        }
+        },
+        {
+            "name": "Marlin",
+            "species": "Atlantic Blue Marlin",
+            "length": 12,
+            "location": "Atlantic Ocean",
+            "diet": "Carnivore",
+            "image": "https://angari.org/wp-content/uploads/2022/10/Image-for-post-1-PC-Hannes-Ribbner.jpeg"
+          },
+          {
+            "name": "Gil",
+            "species": "Piranha",
+            "length": 6,
+            "location": "Amazon River",
+            "diet": "Carnivore",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg/1200px-Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg"
+          },
+          {
+            "name": "Bubbles",
+            "species": "Yellow Tang",
+            "length": 6,
+            "location": "Hawaii",
+            "diet": "Omnivore",
+            "image": "https://www.georgiaaquarium.org/wp-content/uploads/2018/09/yellow-tang-3.jpg"
+          },
+          {
+            "name": "Bruce",
+            "species": "Great White Shark",
+            "length": 20,
+            "location": "Pacific Ocean",
+            "diet": "Carnivore",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppF8oRE8gGtJCS6AsXrtZM0YTH8PsTfXWTg&s"
+          },
+          {
+            "name": "Shadow",
+            "species": "Catfish",
+            "length": 8,
+            "location": "North America",
+            "diet": "Omnivore",
+            "image": "https://www.seafoodwatch.org/globalassets/sfw/images/super-green-list/06---catfish/image20240725125740.png"
+          },
+          {
+            "name": "Flounder",
+            "species": "Flounder",
+            "length": 8,
+            "location": "Atlantic Ocean",
+            "diet": "Carnivore",
+            "image": "https://t3.ftcdn.net/jpg/07/06/62/96/360_F_706629683_By3cJKwViswjgSizIkn6nbCksy0NLhOY.jpg"
+          },
+          {
+            "name": "Darla",
+            "species": "Betta Fish",
+            "length": 3,
+            "location": "Southeast Asia",
+            "diet": "Carnivore",
+            "image": "https://www.tfhmagazine.com/-/media/Project/OneWeb/TFH/US/articles/131_better_betta_keeping.jpg"
+          },
+          {
+            "name": "Lenny",
+            "species": "Lemon Shark",
+            "length": 10,
+            "location": "Caribbean Sea",
+            "diet": "Carnivore",
+            "image": "https://divetimor.com/wp-content/uploads/2018/03/201407110411490.lemon-shark-07-300x199.jpg"
+          },
+          {
+            "name": "Gizmo",
+            "species": "Neon Tetra",
+            "length": 1,
+            "location": "South America",
+            "diet": "Omnivore",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF8erc-imM0LcwKyTGUjJMYlTWvxLaCbS7LQ&s"
+          },
+          {
+            "name": "Pearl",
+            "species": "Manta Ray",
+            "length": 10,
+            "location": "Coral Sea",
+            "diet": "Planktonic feeder",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCatM00K9_NAPRCZPR8SsDc7l87z_XkjndyQ&s"
+          }
     ],
     tips:[
         {

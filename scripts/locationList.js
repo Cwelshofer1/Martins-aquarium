@@ -9,7 +9,7 @@ export const locationList = () => {
             <article class="locations">
              <p> ${location.name}</p>
                 <p> ${location.country}</p>
-                <p> ${location.description}</p
+                <p> ${location.description}</p>
                 <div class="location__details">
                    
                 </div>

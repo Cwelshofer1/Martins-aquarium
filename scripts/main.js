@@ -20,3 +20,4 @@ renderLocationsToDOM(locationHTML)
 
 // Render each HTML string to the correct DOM element
 
+
