@@ -195,4 +195,3 @@ export const database = {
 
     ]
 }
-console.log(database.fish)
