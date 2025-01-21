@@ -22,6 +22,7 @@ export const locationList = () => {
 };
 
 
+
 export const renderLocationsToDOM = (locationsHTML) => {
     const locationsList = document.getElementById('locationList');
  
