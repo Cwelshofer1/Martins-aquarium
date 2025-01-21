@@ -161,3 +161,5 @@ export const renderRegularFishToDOM = (regularFishHTML) => {
         console.error('Could not find element with id "fish-list"');
     }
  };
+
+ finallist.innerHTML = `${holyFishList()}${soldierFishList()}${regularFishList()}`

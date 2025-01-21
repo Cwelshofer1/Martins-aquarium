@@ -81,3 +81,10 @@
     width:900px;
     gap: 20px;
 }
+#finallist{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:900px;
+    gap: 20px;
+}
